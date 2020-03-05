@@ -14,7 +14,7 @@
 
     `ifconfig`
 
-    ![1569215052412](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569215052412.png)
+    ![1569215052412](images\1569215052412.png)
 
 
 
