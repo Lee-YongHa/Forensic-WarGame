@@ -4,7 +4,7 @@
 
 1. hint
 
-   ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569301485486.png)
+   ![](./images/1569301485486.png)
 
    
 
@@ -22,11 +22,11 @@
 
    - `2 > /dev/null` : error를 출력하지 않음
 
-     - 이 옵션을 주지 않았을 경우 ![	](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569217531543.png)
+     - 이 옵션을 주지 않았을 경우 ![	](./images/1569217531543.png)
 
      - 옵션 적용 : `Permission denied` 등의 file은 출력하지 않음
 
-       ![1569216851233](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569216851233.png)
+       ![1569216851233](./images/1569216851233.png)
 
        
 
@@ -73,11 +73,11 @@
       }
       ```
       
-      ![1569391947293](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569391947293.png)
+      ![1569391947293](./images/1569391947293.png)
       
       ​	→ 버퍼에 8 byte 할당 
       
-      ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569392306734.png)
+      ![](./images/1569392306734.png)
       
       ​	⇒ buf 4 byte ("AAA" + "\0 (null)") + dummy 4 byte 
       
@@ -102,11 +102,11 @@
       }
       ```
    
-      ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569392614894.png)
+      ![](./images/1569392614894.png)
    
       ​	→ 버퍼에 8 byte 할당 
    
-      ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569392680243.png)
+      ![](./images/1569392680243.png)
    
       ​	⇒ buf 8 byte ("AAAAAAA" + "\0 (null)") 
    
@@ -131,7 +131,7 @@
       }
       ```
    
-      ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569392916303.png)
+      ![](./images/1569392916303.png)
    
       ```
       (gdb) shell python -c 'print 0x20'
@@ -140,7 +140,7 @@
    
        	→ 버퍼에 32 byte 할당
    
-      ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569394471047.png)
+      ![](./images/1569394471047.png)
    
       ​	⇒ dummy 20 byte (8 byte + 12 byte) + buf 20 byte ("AAAAAAAAAAAAAAAAAAA" + "\0 (null)") 
    
@@ -166,7 +166,7 @@
       }
       ```
    
-      ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569393593828.png)
+      ![](./images/1569393593828.png)
    
       ```
       (gdb) shell python -c 'print 0x28'
@@ -175,7 +175,7 @@
    
       ​	→ 버퍼에 40 byte 할당 
    
-      ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569393945666.png)
+      ![](./images/1569393945666.png)
    
       ​	⇒ dummy 8 byte + dummy 6 byte + buf 10 byte("AAAAAAAAA" + "\0 (null)") + dummy 6 byte + buf2 10 byte("BBBBBBBBB" + "\0 (null)") 
 
@@ -191,11 +191,11 @@
 
 1. `ExecuteMe` 파일을 level 1 권한으로 `tmp` 디렉터리에 복사
 
-   ![1569226395611](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569226395611.png)
+   ![1569226395611](./images/1569226395611.png)
 
    - `ExecuteMe` 파일 정보
 
-     ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569227043808.png)
+     ![](./images/1569227043808.png)
 
      - `executable` : 실행 파일
 
@@ -210,13 +210,13 @@
 
 
 
-![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569299806029.png)
+![](./images/1569299806029.png)
 
 ​	→ 함수의 시작 부분. 프롤로그
 
 
 
-![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569299848906.png)
+![](./images/1569299848906.png)
 
 ​	→ 0x28 = 40
 
@@ -226,7 +226,7 @@
 
 
 
-![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569299875862.png)
+![](./images/1569299875862.png)
 
 ​	→ parameter가 1개이므로, 16 byte로 채워주기 위해 0xc = 12 byte를 빼준다
 
@@ -241,7 +241,7 @@
 
 
 
-![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569299903969.png)
+![](./images/1569299903969.png)
 
 ```
 (gdb) x/s 0x804868f
@@ -252,7 +252,7 @@
 
 
 
-![	](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569229984293.png)
+![	](./images/1569229984293.png)
 
 ```
 (gdb) x/s 0x80486a0
@@ -279,7 +279,7 @@
 
 
 
-![1569230193002](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569230193002.png)
+![1569230193002](./images/1569230193002.png)
 
 ​	→ parameter가 3개이므로, 16 byte로 채워주기 위해 0x4 = 4 byte를 빼준다
 
@@ -291,7 +291,7 @@
 
 
 
-![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569298056948.png)
+![](./images/1569298056948.png)
 
 ​	→ parameter가 2개이므로, 16 byte로 채워주기 위해 0x8 = 8 byte를 빼준다
 
@@ -306,7 +306,7 @@
 
 
 
-![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569299940194.png)
+![](./images/1569299940194.png)
 
 ​	→ eax에 strstr() 함수의 return 값 반환 
 
@@ -333,7 +333,7 @@ if(strstr(buf, "my-pass") != 0)
 
 
 
-![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569299963153.png)
+![](./images/1569299963153.png)
 
 ```
 (gdb) x/s 0x8048800
@@ -352,7 +352,7 @@ if(strstr(buf, "chmod") != 0)
 
 
 
-![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569299979723.png)
+![](./images/1569299979723.png)
 
 ```
 (gdb)x/s 0x8048826
@@ -363,7 +363,7 @@ if(strstr(buf, "chmod") != 0)
 
 
 
-![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569302701534.png)
+![](./images/1569302701534.png)
 
 ​	→ `shell` 명령어를 통해 gdb 에서 외부 명령어 실행 가능
 
@@ -382,7 +382,7 @@ if(strstr(buf, "chmod") != 0)
 
 
 
-![1569302748403](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569302748403.png)
+![1569302748403](./images/1569302748403.png)
 
 ​	→ `system` 명령어를 level2의 권한으로 실행한다
 
@@ -390,7 +390,7 @@ if(strstr(buf, "chmod") != 0)
 
 
 
-![1569300290620](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569300290620.png)
+![1569300290620](./images/1569300290620.png)
 
 ​	→ 함수의 끝 부분. 에필로그
 
@@ -458,7 +458,7 @@ int main()
 
    `echo $PATH`
 
-   ![1569217782856](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569217782856.png)
+   ![1569217782856](./images/1569217782856.png)
 
    - `/bin` 이 환경 변수 PATH에 지정되어 있으므로 `/bin`에 있는 파일은 이름만으로 실행 가능
 
@@ -470,14 +470,14 @@ int main()
 
    - `id`  : level 2 권한 (`uid=3002(level2)`으로 file이 실행된 것 확인
 
-     ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569303581934.png)
+     ![](./images/1569303581934.png)
 
    - `/bin/bash`  : level 2 권한으로 shell이 생성되어 떨어짐
 
-     ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569300658378.png)
+     ![](./images/1569300658378.png)
 
 
 
 ​		⇒ `ExecuteMe` 실행 후, `/bin/bash` 혹은 `sh` 명령어로 shell을 생성해 `my-pass` 실행 
 
-![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569300763832.png)
+![](./images/1569300763832.png)
