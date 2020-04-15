@@ -14,7 +14,7 @@
 
 1. GUI 형태로 파티션 상태 확인
 
-   ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1586664171050.png)
+   ![](./images/1586664171050.png)
 
    ⇒ 5개의 파티션 존재
 
@@ -22,7 +22,7 @@
 
 2. 파티션 테이블 확인
 
-   ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1586664572709.png)
+   ![](./images/1586664572709.png)
 
    → 마지막(BLUE) 파티션(4) 정보 확인
 
@@ -34,7 +34,7 @@
 
 3. 확장 파티션(4)이 존재하는 섹터로의 이동
 
-   ![1586665932425](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1586665932425.png)
+   ![1586665932425](./images/1586665932425.png)
 
    → [80 B0 04 00] = 0004B080 : 307328 Sector
 
@@ -54,7 +54,7 @@
 
 4. 4번째 파티션이 존재하는 섹터로의 이동
 
-   ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1586665381931.png)
+   ![](./images/1586665381931.png)
 
    → [80 00 00 00] = 00000080 : 128
 
@@ -65,7 +65,7 @@
 
 5. 확장 파티션(5)이 존재하는 섹터로의 이동
 
-   ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1586665598201.png)
+   ![](./images/1586665598201.png)
    
    → [80 90 01 00] = 00019080 : 102528
    
@@ -81,7 +81,7 @@
    
 6. 5번째 파티션이 존재하는 섹터로의 이동
 
-   ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1586665997694.png)
+   ![](./images/1586665997694.png)
 
    → [80 00 00 00] = 00000080 : 128
 
