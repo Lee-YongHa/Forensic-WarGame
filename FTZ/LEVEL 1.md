@@ -1,12 +1,12 @@
 ## LEVEL 1
 
-
+<br>
 
 1. hint
 
    ![](./images/1569301485486.png)
 
-   
+   <br>
 
 2. level 2 의 권한에 setuid가 걸린 file 찾기
 
@@ -28,7 +28,7 @@
 
        ![1569216851233](./images/1569216851233.png)
 
-       
+     <br>  
 
    - setuid bit가 설정되어 있으므로 (s) file을 실행할 때 file 소유자의 권한으로 실행됨
 
@@ -42,7 +42,7 @@
 
 #### 개념 이해
 
-
+<br>
 
 1. dummy
 
@@ -52,16 +52,16 @@
    - 단, 8 byte 이하는 16 byte로 맞추지 않고 8 byte만 할당한다
    - 그리고 뒤에 이어서 8 byte의 dummy byte를 추가한다
    
-   
+   <br>
    
    1. 4 byte
       
       > dummy 4 byte + buf 4 byte + SFP 4 byte + RET 4 byte
       
       메모리 구조 :	 |--- 4 ---|--- 4 ---|--- 4 ---|--- 4 ---|
-      						+--------+--------+--------+---------+
-      						|dummy|    buf    |   SFP   |    RET    |
-      						+--------+--------+--------+---------+
+      		     +---------+---------+---------+---------+
+      		     |  dummy  |   buf   |   SFP   |   RET   |
+      		     +---------+---------+---------+---------+
       
       ```
       #include <stdio.h>
@@ -81,7 +81,7 @@
       
       ​	⇒ buf 4 byte ("AAA" + "\0 (null)") + dummy 4 byte 
       
-      
+        <br>
       
    2. 8 byte
    
@@ -110,16 +110,16 @@
    
       ​	⇒ buf 8 byte ("AAAAAAA" + "\0 (null)") 
    
-      
+        <br>
    
    3. 20 byte
    
       > buf 20 byte + dummy 20 byte + SFP 4 byte + RET 4 byte
    
       메모리 구조 :	 |------ 20 -------|------- 20 -------|--- 4 ---|--- 4 ---|
-      						+-----------------+-----------------+--------+---------+
-      						|	      buf  	     |	    dummy      |   SFP   |    RET    |
-      						+-----------------+-----------------+--------+---------+
+      		      +-----------------+-----------------+---------+---------+
+      		      |	      buf       |      dummy       |   SFP   |   RET   |
+      		      +-----------------+-----------------+---------+---------+
    
       ```
       #include <stdio.h>
@@ -145,7 +145,7 @@
       ​	⇒ dummy 20 byte (8 byte + 12 byte) + buf 20 byte ("AAAAAAAAAAAAAAAAAAA" + "\0 (null)") 
    
       
-   
+     <br>
    4. 10 byte + 10 byte
    
       > buf2 10 byte + dummy 6 byte + buf 10 byte + dummy 14 byte + SFP 4 byte + RET 4 byte
@@ -172,7 +172,7 @@
       (gdb) shell python -c 'print 0x28'
       40
       ```
-   
+     <br>
       ​	→ 버퍼에 40 byte 할당 
    
       ![](./images/1569393945666.png)
@@ -187,7 +187,7 @@
 
 #### 문제 분석	
 
-
+  <br>
 
 1. `ExecuteMe` 파일을 level 1 권한으로 `tmp` 디렉터리에 복사
 
@@ -199,7 +199,7 @@
 
      - `executable` : 실행 파일
 
-
+  <br>
 
 2. gdb 분석
 
@@ -214,7 +214,7 @@
 
 ​	→ 함수의 시작 부분. 프롤로그
 
-
+  <br>
 
 ![](./images/1569299848906.png)
 
@@ -224,7 +224,7 @@
 
 ​    ⇒ `char buf[n];`  (n은 17 이상 32 이하의 정수)
 
-
+  <br>
 
 ![](./images/1569299875862.png)
 
@@ -239,7 +239,7 @@
 
 ​	⇒ `system("/usr/bin/clear");`
 
-
+  <br>
 
 ![](./images/1569299903969.png)
 
@@ -250,7 +250,7 @@
 
 ​	⇒ `chdir("/home/level2");`
 
-
+  <br>
 
 ![	](./images/1569229984293.png)
 
@@ -304,7 +304,7 @@
 
 ​	⇒ `strstr(buf, "my-pass");`
 
-
+  <br>
 
 ![](./images/1569299940194.png)
 
@@ -331,7 +331,7 @@ if(strstr(buf, "my-pass") != 0)
 }
 ```
 
-
+  <br>
 
 ![](./images/1569299963153.png)
 
@@ -350,7 +350,7 @@ if(strstr(buf, "chmod") != 0)
 }
 ```
 
-
+  <br>
 
 ![](./images/1569299979723.png)
 
@@ -361,7 +361,7 @@ if(strstr(buf, "chmod") != 0)
 
 ​	⇒ `printf("\n\n");`
 
-
+  <br>
 
 ![](./images/1569302701534.png)
 
@@ -380,7 +380,7 @@ if(strstr(buf, "chmod") != 0)
 
 ​	⇒ `setreuid(3002, 3002);`
 
-
+  <br>
 
 ![1569302748403](./images/1569302748403.png)
 
@@ -404,7 +404,7 @@ if(strstr(buf, "chmod") != 0)
 
 > 의사 코드 : 리버스 엔지니어링 / 리버싱. 어셈블리 소스를 원본 소스로 복원하는 과정
 
-
+  <br>
 
 ```
 #include <stdio.h>
@@ -452,7 +452,7 @@ int main()
 
 #### 취약점 공략
 
-
+  <br>
 
 1. 환경 변수 - PATH
 
@@ -462,7 +462,7 @@ int main()
 
    - `/bin` 이 환경 변수 PATH에 지정되어 있으므로 `/bin`에 있는 파일은 이름만으로 실행 가능
 
-     
+   <br>    
 
 2. file (`ExecuteMe`) 실행
 
@@ -476,7 +476,7 @@ int main()
 
      ![](./images/1569300658378.png)
 
-
+  <br>
 
 ​		⇒ `ExecuteMe` 실행 후, `/bin/bash` 혹은 `sh` 명령어로 shell을 생성해 `my-pass` 실행 
 
