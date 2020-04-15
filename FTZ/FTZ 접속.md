@@ -8,7 +8,7 @@
 
     > ID : root	,	PW : hackerschool
 
-    
+
 
  2. IP 주소 확인
 
@@ -26,11 +26,11 @@
 
    `/usr/local/apache/bin/apachectl start`
 
-   ![1569215680597](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569215680597.png)
+   ![1569215680597](./images/1569215680597.png)
 
    `netstat -nltp`
 
-   ![1569215755321](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569215755321.png)
+   ![1569215755321](./images/1569215755321.png)
 
    
 
@@ -47,7 +47,7 @@
       [level1@ftz public_html]$ vi index.html
       ```
 
-      ![1569216258539](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569216258539.png)
+      ![1569216258539](./images/1569216258539.png)
 
    3. 생성된 문서 확인
 
@@ -57,5 +57,5 @@
 
          > http://192.168.8.130/~level1/
 
-         ![1569217029905](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1569217029905.png)
+         ![1569217029905](./images/1569217029905.png)
 
