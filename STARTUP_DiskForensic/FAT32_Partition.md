@@ -15,7 +15,7 @@
 
    - FTK Imager 이용
 
-   ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1586508448638.png)
+   ![](./images/1586508448638.png)
 
    → Evidence Tree의 파티션 정보 확인 : Unrecognized
 
@@ -27,7 +27,7 @@
 
    - HxD 이용
 
-   ![1586508966240](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1586508966240.png)
+   ![1586508966240](./images/1586508966240.png)
 
    → 파티션 테이블에 하나의 파티션 정보 존재
 
@@ -41,7 +41,7 @@
 
 3. 파티션이 존재하는 섹터로의 이동
 
-   ![1586509253836](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1586509253836.png)
+   ![1586509253836](./images/1586509253836.png)
 
    → [3F 00 00 00] = 0000003F : 63 Sector
 
@@ -53,7 +53,7 @@
 
    - FAT32 파일시스템 : 파티션 시작주소에서 6번째 섹터에 파티션 시작 부분(BR)의 백업본 존재
 
-   ![1586509467073](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1586509467073.png)
+   ![1586509467073](./images/1586509467073.png)
 
    → 69 : 63(파티션 시작 주소) + 6
 
@@ -63,13 +63,13 @@
 
 5. BR 수정
 
-   ![1586509679378](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1586509679378.png)
+   ![1586509679378](./images/1586509679378.png)
 
 
 
 6. 복구 여부 확인
 
-   ![1586509763199](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1586509763199.png)
+   ![1586509763199](./images/1586509763199.png)
 
    → Evidence Tree의 파티션 정보 확인
 
