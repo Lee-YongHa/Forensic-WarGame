@@ -1,6 +1,6 @@
 ## NTFS 파티션 복구
 
-<br>
+
 
 - 손상된 NTFS 파티션 복구
 - 해당 파티션 정보는 가지고 있으나, 해당 파티션의 시작 부분이 손상되었을 경우
@@ -13,7 +13,7 @@
 
 1. GUI 형태로 파티션 상태 확인
 
-   ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1586510043150.png)
+   ![](./images/1586510043150.png)
 
    → Evidence Tree의 파티션 정보 확인 : Unrecognized
 
@@ -23,7 +23,7 @@
 
 2. 파티션 테이블 확인
 
-   ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1586510152769.png)
+   ![](./images/1586510152769.png)
 
    → 파티션 테이블에 하나의 파티션 정보 존재
 
@@ -39,7 +39,7 @@
 
 3. 파티션이 존재하는 섹터로의 이동
 
-   ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1586510214239.png)
+   ![](./images/1586510214239.png)
 
    → [3F 00 00 00] = 0000003F : 63 Sector
 
@@ -51,7 +51,7 @@
 
    - NTFS 파일시스템 : 파티션 정보의 제일 마지막 섹터에 파티션 시작 정보(BR)의 백업본 존재
 
-   ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1586510746798.png)
+   ![](./images/1586510746798.png)
 
    → [C0 3F 3C 00] = 003C3FC0 : 3948480
 
@@ -65,13 +65,13 @@
 
 5. BR 수정
 
-   ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1586510770159.png)
+   ![](./images/1586510770159.png)
 
 
 
 6. 복구 여부 확인
 
-   ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1586510856294.png)
+   ![](./images/1586510856294.png)
 
    → Evidence Tree의 파티션 정보 확인
 
