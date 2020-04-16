@@ -36,20 +36,20 @@
    - John the Ripper 이용
 
      > Unix 계열 password crack tool
-
-<br>
-
-         1) 크래킹할 파일(shadow)을 txt 파일로 만들기
-
-![	](./images/1587014951102.png)	
-
-<br>
-
-         2) john.exe 이용해 패스워크 크래킹
-
-![	](./images/1587015040566.png)<br>
-
-⇒ AuthKey : `iloveu1`	
+     
+     <br>
+     
+     1) 크래킹할 파일(shadow)을 txt 파일로 만들기
+     
+     ![	](./images/1587014951102.png)
+     
+     <br>
+     
+     2) john.exe 이용해 패스워크 크래킹
+     
+     ![		](./images/1587015040566.png)<br>
+     
+     ⇒ AuthKey : `iloveu1`	
 
 
 
