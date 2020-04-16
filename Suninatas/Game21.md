@@ -1,33 +1,4 @@
-## Game 14
-
-<br>
-
-1. 문제
-
-   ![1586953909605](./images/1586953909605.png)
-
-<br>
-
-
-2. 파일 다운로드
-
-   ![1586953983416](./images/1586953983416.png)
-
-<br>
-
-3. 파일 분석
-
-   - Notepad++ editor 이용
-
-     1) passwd
-
-     ![](./images/1587014656788.png)
-
-     <br>
-
-     2) shadow
-
-     ![](./images/1587014624951.png)## Game 21
+## Game 21
 
 <br>
 
@@ -46,22 +17,22 @@
 3. 이미지 파일 분석
 
    ![1587033330147](./images/1587033330147.png)
-   
+
 ​				→ JPG 파일임에도 파일의 크기가 비정상적으로 큼
-   
+
 <br>
-   
+
 - JPEG(Joint Photographic Experts Group) : 정지 화상(사진)을 위해서 만들어진 손실 압축 방법 표준
-   
-     - .jpg, .jpeg 등의 확장자 사용
-     - 높은 압축률로 인해 웹 상에서 사진 등의 화상을 보관하고 전송하는 데 가장 널리 사용되는 파일 형식
-   
-     | File Type | Header Signature (hex) | Footer Signature (hex) |
-     | :-------: | :--------------------: | :--------------------: |
-     | JPEG/JFIF |      FF D8 FF E0       |         FF D9          |
-     | JPEG/EXIF |      FF D8 FF E1       |         FF D9          |
-   
-   <br>
+
+  - .jpg, .jpeg 등의 확장자 사용
+  - 높은 압축률로 인해 웹 상에서 사진 등의 화상을 보관하고 전송하는 데 가장 널리 사용되는 파일 형식
+
+  | File Type | Header Signature (hex) | Footer Signature (hex) |
+  | :-------: | :--------------------: | :--------------------: |
+  | JPEG/JFIF |      FF D8 FF E0       |         FF D9          |
+  | JPEG/EXIF |      FF D8 FF E1       |         FF D9          |
+
+  <br>
 
 4. HEX 분석
 
@@ -120,28 +91,3 @@
    ​	![3](C:\Users\YONGHA.LEE\Security-Study\Suninatas\images\3.jpg)
 
    ​	⇒ AuthKey : `H4CC3R_IN_TH3_MIDD33_4TT4CK`
-
-<br>
-
-4. Password Cracking (패스워크 크래킹)
-
-   - John the Ripper 이용
-
-     > Unix 계열 password crack tool
-
-<br>
-
-         1) 크래킹할 파일(shadow)을 txt 파일로 만들기
-
-![	](./images/1587014951102.png)	
-
-<br>
-
-         2) john.exe 이용해 패스워크 크래킹
-
-![	](./images/1587015040566.png)<br>
-
-⇒ AuthKey : `iloveu1`	
-
-
-
