@@ -4,14 +4,14 @@
 
 1. 문제
 
-   ![1586953909605](./images/1586953909605.png)
+   ![1586953909605](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1586953909605.png)
 
 <br>
 
 
 2. 파일 다운로드
 
-   ![1586953983416](./images/1586953983416.png)
+   ![1586953983416](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1586953983416.png)
 
 <br>
 
@@ -21,13 +21,13 @@
 
      1) passwd
 
-     ![](./images/1587014656788.png)
+     ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587014656788.png)
 
      <br>
 
      2) shadow
 
-     ![](./images/1587014624951.png)
+     ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587014624951.png)
 
 <br>
 
@@ -41,13 +41,13 @@
 
 ​		1) 크래킹할 파일(shadow)을 txt 파일로 만들기
 
-![	](./images/1587014951102.png)	
+![	](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587014951102.png)	
 
 <br>
 
 ​	2) john.exe 이용해 패스워크 크래킹
 
-![	](./images/1587015040566.png)<br>
+![	](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587015040566.png)<br>
 
 ⇒ AuthKey : `iloveu1`	
 
