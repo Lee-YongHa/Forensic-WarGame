@@ -1,22 +1,51 @@
-## Game 21
+## Game 14
 
 <br>
 
 1. 문제
 
-   ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587033151321.png)
+   ![1586953909605](./images/1586953909605.png)
+
+<br>
+
+
+2. 파일 다운로드
+
+   ![1586953983416](./images/1586953983416.png)
+
+<br>
+
+3. 파일 분석
+
+   - Notepad++ editor 이용
+
+     1) passwd
+
+     ![](./images/1587014656788.png)
+
+     <br>
+
+     2) shadow
+
+     ![](./images/1587014624951.png)## Game 21
+
+<br>
+
+1. 문제
+
+   ![](./images/1587033151321.png)
 
 <br>
 
 2. 이미지 파일 다운로드
 
-   ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587033205901.png)
+   ![](./images/1587033205901.png)
 
 <br>
 
 3. 이미지 파일 분석
 
-   ![1587033330147](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587033330147.png)
+   ![1587033330147](./images/1587033330147.png)
    
 ​				→ JPG 파일임에도 파일의 크기가 비정상적으로 큼
    
@@ -38,9 +67,9 @@
 
    - JPEG/EXIF 형식의 파일이므로, 헤더 시그니처인 [FF D8 FF E1] 검색
 
-   ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587034993485.png)
+   ![](./images/1587034993485.png)
 
-   ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587035031501.png)
+   ![](./images/1587035031501.png)
 
    → 이외에도 여러 곳에서 헤더 시그니처 발견
 
@@ -54,19 +83,19 @@
 
      1) 1.jpg
 
-     ![1587035185213](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587035185213.png)
+     ![1587035185213](./images/1587035185213.png)
 
      <br>
 
      2) 2.jpg
 
-     ![1587035222314](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587035222314.png)
+     ![1587035222314](./images/1587035222314.png)
 
      <br>
 
      3) 3.jpg
 
-     ![1587035232552](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587035232552.png)
+     ![1587035232552](./images/1587035232552.png)
 
      ⇒ 이 3장의 JPEG 파일이 반복해서 생성됨
 
@@ -91,3 +120,28 @@
    ​	![3](C:\Users\YONGHA.LEE\Security-Study\Suninatas\images\3.jpg)
 
    ​	⇒ AuthKey : `H4CC3R_IN_TH3_MIDD33_4TT4CK`
+
+<br>
+
+4. Password Cracking (패스워크 크래킹)
+
+   - John the Ripper 이용
+
+     > Unix 계열 password crack tool
+
+<br>
+
+         1) 크래킹할 파일(shadow)을 txt 파일로 만들기
+
+![	](./images/1587014951102.png)	
+
+<br>
+
+         2) john.exe 이용해 패스워크 크래킹
+
+![	](./images/1587015040566.png)<br>
+
+⇒ AuthKey : `iloveu1`	
+
+
+
