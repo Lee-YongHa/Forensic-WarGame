@@ -4,13 +4,13 @@
 
 1. 문제
 
-   ![1587137253428](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587137253428.png)
+   ![1587137253428](./image/1587137253428.png)
 
 <br>
 
 2. 파일 다운로드
 
-   ![1587139344447](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587139344447.png)
+   ![1587139344447](./image/1587139344447.png)
 
    ​	→ 메모리 덤프 파일
 
@@ -32,7 +32,7 @@
      
      - 이미지 시스템 분석
      
-       ![	](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587307631963.png) 
+       ![	](./image/1587307631963.png) 
      
        → `vol.py -f "MemoryDump(SuNiNaTaS)" imageinfo`
      
@@ -53,7 +53,7 @@
 
 1. IP 주소 확인
 
-   ![1587308383704](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587308383704.png)
+   ![1587308383704](./image/1587308383704.png)
 
    → `vol.py -f "MemoryDump(SuNiNaTaS)" --profile=Win7SP1x86 netscan`
 
@@ -77,7 +77,7 @@
 
    - 문서를 읽기 위한 프로그램, 즉 문서를 읽는 프로세스 실행
 
-   ![1587309043081](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587309043081.png)
+   ![1587309043081](./image/1587309043081.png)
 
    → `vol.py -f "MemoryDump(SuNiNaTaS)" --profile=Win7SP1x86 pstree`
 
@@ -93,7 +93,7 @@
 
 2. cmd 실행 기록 확인
 
-   ![1587309396141](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587309396141.png)
+   ![1587309396141](./image/1587309396141.png)
 
    → `vol.py -f "MemoryDump(SuNiNaTaS)" --profile=Win7SP1x86 cmdscan`
 
@@ -118,19 +118,19 @@
 
      > 데이터 복구 유틸리티 세트
 
-     ![1587311731595](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587311731595.png)
+     ![1587311731595](./image/1587311731595.png)
 
      → 메모리 덤프 파일 scan 
 
      → 파일 경로 따라 기밀문서 찾아 recover
 
-     ![1587311809820](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587311809820.png)
+     ![1587311809820](./image/1587311809820.png)
 
 <br>
 
 2. 기밀문서 내용 확인
 
-   ![1587311870813](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587311870813.png)
+   ![1587311870813](./image/1587311870813.png)
 
    ⇒ Key : 4rmy_4irforce_N4vy
 
@@ -150,7 +150,7 @@ lowercase(MD5(1번답 + 2번답 + 3번키))
 
 → MD5(192.168.197.138SecreetDocumen7.txt4rmy_4irforce_N4vy)
 
-![1587310162628](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587310162628.png)
+![1587310162628](./image/1587310162628.png)
 
 → lowercase(c152e3fb5a6882563231b00f21a8ed5f)
 
