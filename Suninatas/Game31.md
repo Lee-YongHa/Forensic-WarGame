@@ -78,7 +78,7 @@
 
 4. 추출된 PDF 파일 분석
 
-   ![1587386452301](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587386452301.png)
+   ![1587386452301](./images/1587386452301.png)
 
    ​	<br>
 
