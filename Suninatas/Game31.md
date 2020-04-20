@@ -4,13 +4,13 @@
 
 1. 문제
 
-   ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587310287281.png)
+   ![](./images/1587310287281.png)
 
 <br>
 
 2. 파일 다운로드
 
-   ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587310329371.png)
+   ![](./images/1587310329371.png)
 
    ​	→ PDF 파일 다운로드
 
@@ -28,19 +28,19 @@
      
      1) 자바스크립트 변환	
      
-     ![1587312364789](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587312364789.png)
+     ![1587312364789](./images/1587312364789.png)
      
      → 37번 오브젝트에서 자바스크립트 발견
      
      <br>
      
-     ![1587312440191](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587312440191.png)
+     ![1587312440191](./images/1587312440191.png)
      
      → PDF Stream Dumper의 기능인 Javascript_UI(JS UI) 기능을 이용해 자바스크립트 포맷으로 변환
      
      <br>
      
-     ![1587384285707](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587384285707.png)
+     ![1587384285707](./images/1587384285707.png)
      
      → Base64로 11번 Decoding을 실행
      
@@ -50,7 +50,7 @@
      
      2) PDF 파일 추출
      
-     ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587384996312.png)
+     ![](./images/1587384996312.png)
      
      → 39번 오브젝트에서 PDF 헤더 발견 : PDF 1.7 사양을 사용함
      
@@ -58,7 +58,7 @@
      
      - PDF 파일 구조
      
-       ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587385046060.png)
+       ![](./images/1587385046060.png)
      
      ​										→ Header : PDF의 시그니처와 PDF 사양의 버전을 정의
      
@@ -70,7 +70,7 @@
      
      <br>
      
-     ![1587385536985](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587385536985.png)
+     ![1587385536985](./images/1587385536985.png)
      
      → Save Decompressed Stream 기능을 이용해 PDF 파일 추출
 
@@ -82,19 +82,19 @@
 
    ​	<br>
 
-   ![1587386502803](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587386502803.png)	
+   ![1587386502803](./images/1587386502803.png)	
 
    → 잠금되어 있음
 
    <br>
 
-   ![1587386927307](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587386927307.png)
+   ![1587386927307](./images/1587386927307.png)
 
    ​	→ https://smallpdf.com/kr 이용해 PDF 파일 잠금 해제
 
    <br>
 
-   ![1587387017424](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587387017424.png)
+   ![1587387017424](./images/1587387017424.png)
 
    ⇒ Flag : SunINatAsGOodWeLL!@#$
 
@@ -112,7 +112,7 @@ lowercase(MD5(Flag))
 
 → MD5(SunINatAsGOodWeLL!@#$)
 
-![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587387170213.png)
+![](./images/1587387170213.png)
 
 → lowercase(13d45a1e25471e72d2acc46f8ec46e95)
 
