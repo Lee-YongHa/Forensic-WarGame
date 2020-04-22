@@ -1,4 +1,4 @@
-## Game 31
+## Challenge 31
 
 <br>
 
