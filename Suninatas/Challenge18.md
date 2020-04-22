@@ -1,4 +1,4 @@
-## Challenges 18
+## Challenge 18
 
 <br>
 
