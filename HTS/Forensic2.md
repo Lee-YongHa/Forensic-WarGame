@@ -1,4 +1,4 @@
-## Forensic 2 (Cheater)
+## Forensic 2 : Cheater
 
 <br>
 
