@@ -1,4 +1,4 @@
-## Game 32
+## Challenge 32
 
 <br>
 
