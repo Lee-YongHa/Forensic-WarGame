@@ -1,4 +1,4 @@
-## Game 26
+## Challenges 26
 
 <br>
 
