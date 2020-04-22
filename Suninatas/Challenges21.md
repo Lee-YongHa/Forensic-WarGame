@@ -1,4 +1,4 @@
-## Game 21
+## Challenges 21
 
 <br>
 
