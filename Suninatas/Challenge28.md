@@ -1,4 +1,4 @@
-## Game 28
+## Challenge 28
 
 <br>
 
