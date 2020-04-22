@@ -21,7 +21,7 @@
 ​				→ JPG 파일임에도 파일의 크기가 비정상적으로 큼
 
 <br>
-
+ 
 - JPEG(Joint Photographic Experts Group) : 정지 화상(사진)을 위해서 만들어진 손실 압축 방법 표준
 
   - .jpg, .jpeg 등의 확장자 사용
