@@ -1,4 +1,4 @@
-## Challenges 26
+## Challenge 26
 
 <br>
 
