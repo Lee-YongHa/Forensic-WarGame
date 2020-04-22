@@ -4,7 +4,7 @@
 
 1. 문제
 
-   ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587396475020.png)
+   ![](./images/1587396475020.png)
 
 <br>
 
@@ -20,7 +20,7 @@
 
    - JPEGsnoop 이용
 
-     ![1587545939732](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587545939732.png)
+     ![1587545939732](./images/1587545939732.png)
 
      → Image is processed/edited : 이미지 조작 확인
 
@@ -43,7 +43,7 @@
 
    - fotoforensics.com 이용
 
-     ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587547939740.png)
+     ![](./images/1587547939740.png)
 
      ​	→ 지갑과 여자의 모습이 조작되었음을 확인
 
