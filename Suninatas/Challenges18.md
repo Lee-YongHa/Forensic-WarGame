@@ -1,4 +1,4 @@
-## Game 18
+## Challenges 18
 
 <br>
 
