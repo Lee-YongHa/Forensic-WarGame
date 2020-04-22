@@ -1,4 +1,4 @@
-## Game 15
+## Challenges 15
 
 <br>
 
