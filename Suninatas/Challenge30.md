@@ -1,4 +1,4 @@
-## Game 30
+## Challenge 30
 
 <br>
 
