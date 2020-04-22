@@ -1,4 +1,4 @@
-## Challenges 21
+## Challenge 21
 
 <br>
 
