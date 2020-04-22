@@ -1,4 +1,4 @@
-## Forensic 3 (PapaSmurphey's Pizza)
+## Forensic 3 : PapaSmurphey's Pizza
 
 <br>
 
