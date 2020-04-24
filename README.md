@@ -16,7 +16,7 @@
 
 <br>
 
-[WarChallenge]
+[WarGame]
 
 1. Suninatas
 
