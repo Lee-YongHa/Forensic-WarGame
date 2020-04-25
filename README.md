@@ -48,7 +48,7 @@
 
 ​		  ② Forensic2 : ELA (Error Level Analysis)
 
-​		  ③ Forensic3 : File Carving - JPG, RAR Signature
+​		  ③ Forensic3 : File Carving - JPG, RAR signature
 
 #### 3. XCZ.KR
 
@@ -57,3 +57,5 @@
 ​		  ② PROB24 : Memory Dump - Volatility
 
 ​		  ③ PROB27 : dbx File
+
+​		  ④ PROB35 : ZIP signature
