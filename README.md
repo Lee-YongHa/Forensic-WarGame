@@ -48,7 +48,7 @@
 
 ​		  ② Forensic2 : ELA (Error Level Analysis)
 
-​		  ③ Forensic3 : File Carving - Signature
+​		  ③ Forensic3 : File Carving - JPG, RAR Signature
 
 #### 3. XCZ.KR
 
