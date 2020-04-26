@@ -52,12 +52,16 @@
 
 #### 3. XCZ.KR
 
-​		  ① PROB01 : File Carving - PNG, JPG signature
+​		  ① PROB1 : File Carving - PNG, JPG signature
 
-​		  ② PROB22 : AD1 File
+​		  ② PROB2 : Morse Code Decoding
 
-​		  ③ PROB24 : Memory Dump - Volatility
+​		  ③ PROB3 : Vigenere Cipher
 
-​		  ④ PROB27 : dbx File
+​		  ④ PROB22 : AD1 File
 
-​		  ⑤ PROB35 : ZIP structure
+​		  ⑤ PROB24 : Memory Dump - Volatility
+
+​		  ⑥ PROB27 : dbx File
+
+​		  ⑦ PROB35 : ZIP structure
