@@ -22,7 +22,7 @@
 
    - Python으로 Brute Force 알고리즘 구현
    
-     
+     https://github.com/Lee-YongHa/Forensic-Tool/blob/master/BruteForce/BruteForce_PROB26.py
    
    → Yh9/=-^:86/f87Y?]-@L}<_E|*1/=-Xi!"Hx865C|-}:|*DL*G_i86/f868FX(@g@-Lh|)=D}_93@_18@g9,*3YC$(@P
    
