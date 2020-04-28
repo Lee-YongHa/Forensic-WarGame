@@ -66,8 +66,10 @@
 
 ​		  ⑦ PROB24 : Memory Dump - Volatility
 
-​		  ⑧ PROB27 : dbx File
+​		  ⑧ PROB26 : Brute Force
 
-​		  ⑨ PROB35 : ZIP structure
+​		  ⑨ PROB27 : dbx File
 
-​		  ⑩ PROB36 : LNK structure
+​		  ⑩ PROB35 : ZIP structure
+
+​		  ⑪ PROB36 : LNK structure
