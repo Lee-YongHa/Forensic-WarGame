@@ -1,15 +1,15 @@
-## Challenge 14
+## Challenge 8
 
 <br>
 
 1. 문제
 
-   ![1588090690840](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1588090690840.png)
+   ![1588090690840](./images/1588090690840.png)
 
 <br>
 
 
-2. Hint 발견![1588090742659](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1588090742659.png)
+2. Hint 발견![1588090742659](./images/1588090742659.png)
 
 
 <br>
@@ -26,7 +26,7 @@
 
 4. 로그인 성공
 
-   ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1588090911787.png)
+   ![](./images/1588090911787.png)
 
    ​		⇒ AuthKey : `l3ruteforce P@ssword`	
 
