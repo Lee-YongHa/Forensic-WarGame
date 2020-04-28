@@ -58,10 +58,16 @@
 
 ​		  ③ PROB3 : Vigenere Cipher
 
-​		  ④ PROB22 : AD1 File
+​		  ④ PROB14 : Navajo Code
 
-​		  ⑤ PROB24 : Memory Dump - Volatility
+​		  ⑤ PROB15 : Pigpen Cipher
 
-​		  ⑥ PROB27 : dbx File
+​		  ⑥ PROB22 : AD1 File
 
-​		  ⑦ PROB35 : ZIP structure
+​		  ⑦ PROB24 : Memory Dump - Volatility
+
+​		  ⑧ PROB27 : dbx File
+
+​		  ⑨ PROB35 : ZIP structure
+
+​		  ⑩ PROB36 : LNK structure
