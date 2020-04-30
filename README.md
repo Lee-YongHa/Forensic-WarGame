@@ -84,5 +84,5 @@
 
 ​		  ① [Cryptography1 : Base64, Ceasar Cipher](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptgraphy1.md)
 
-​		  ② [Crytography2] : Substitution Cipher](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptgraphy2.md)
+​		  ② [Crytography2 : Substitution Cipher](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptgraphy2.md)
 
