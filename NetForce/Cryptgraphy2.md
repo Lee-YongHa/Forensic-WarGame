@@ -9,7 +9,7 @@
 
 <br>
 
-2. Decoding
+2. Substitution Cyper Decoding
 
    - Python으로 Subtitution Cyper Decoding 알고리즘 구현
 
@@ -22,4 +22,7 @@
      	- 확실한 문자는 대문자로 표시
    
      ⇒ Password : `netforce`
+<<<<<<< HEAD
 
+=======
+>>>>>>> 91e823ca7561650b7b071419ba722bd48e4b846e
