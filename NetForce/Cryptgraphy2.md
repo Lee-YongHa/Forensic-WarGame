@@ -9,7 +9,7 @@
 
 <br>
 
-2. Decoding
+2. Substitution Cyper Decoding
 
    - Python으로 Subtitution Cyper Decoding 알고리즘 구현
 
