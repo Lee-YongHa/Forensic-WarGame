@@ -21,7 +21,7 @@
 ​				→ JPG 파일임에도 파일의 크기가 비정상적으로 큼
 
 <br>
- 
+
 - JPEG(Joint Photographic Experts Group) : 정지 화상(사진)을 위해서 만들어진 손실 압축 방법 표준
 
   - .jpg, .jpeg 등의 확장자 사용
@@ -76,18 +76,18 @@
 
    1) 1.jpg
 
-   ![1](C:\Users\YONGHA.LEE\Security-Study\Suninatas\images\1.jpg)
+   ![1](./images/1.jpg)
 
    <br>
 
    2) 2.jpg
 
-   ​	![	](C:\Users\YONGHA.LEE\Security-Study\Suninatas\images\2.jpg)
+   ​	![	](./images/2.jpg)
 
    <br>
 
    3) 3.jpg
 
-   ​	![3](C:\Users\YONGHA.LEE\Security-Study\Suninatas\images\3.jpg)
+   ​	![3](./images/3.jpg)
 
    ​	⇒ AuthKey : `H4CC3R_IN_TH3_MIDD33_4TT4CK`
