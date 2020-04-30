@@ -18,7 +18,7 @@
 
    - Python으로 Brute Force 알고리즘 구현
 
-     [Github Link](https://github.com/Lee-YongHa/Forensic-Tool/blob/master/BruteForce/BruteForce_2.py)
+     [BruteForce_2.py](https://github.com/Lee-YongHa/Forensic-Tool/blob/master/BruteForce/BruteForce_2.py)
 
      ⇒ Password : 7707
 
