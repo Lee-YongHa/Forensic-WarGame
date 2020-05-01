@@ -86,3 +86,6 @@
 
 ​		  ② [Crytography2 : Substitution Cipher](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptgraphy2.md)
 
+​		  ③ [Cryptography3 : Morse Code](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptography3.md)
+
+​		  ④ [Cryptography4 : XOR Crypt](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptography4.md)
