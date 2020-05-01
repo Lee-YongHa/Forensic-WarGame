@@ -4,7 +4,7 @@
 
 1. 문제
 
-   ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1588340215608.png)
+   ![](./images/1588340215608.png)
 
 
 <br>
