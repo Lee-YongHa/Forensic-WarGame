@@ -4,8 +4,7 @@
 
 1. 문제
 
-   ![1588341464758](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1588341464758.png)
-
+   ![1588341464758](./images/1588341464758.png)
 
 <br>
 
