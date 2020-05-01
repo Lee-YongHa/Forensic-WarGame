@@ -19,13 +19,6 @@
    
      → LEUK HE ZO`N SUBSTITUTIE CIPHER mE WACHTWOORD vOOR DE CHALLENGE PAGINA IS NETFORCE
    
-     	- 확실한 문자는 대문자로 표시
+     - 확실한 문자는 대문자로 표시
    
      ⇒ Password : `netforce`
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> 91e823ca7561650b7b071419ba722bd48e4b846e
-=======
->>>>>>> 91e823ca7561650b7b071419ba722bd48e4b846e
