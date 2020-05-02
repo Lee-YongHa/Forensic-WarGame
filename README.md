@@ -82,6 +82,8 @@
 
 #### 4. NetForce
 
+​	***Cryptography***
+
 ​		  ① [Cryptography1 : Base64, Ceasar Cipher](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptgraphy1.md)
 
 ​		  ② [Crytography2 : Substitution Cipher](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptgraphy2.md)
@@ -97,4 +99,6 @@
 ​		  ⑦ [Cryptography7 : Leetspeak](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptography7.md)
 
 ​		  ⑧ [Cryptography8 : Decimal](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptography8.md)
+
+​		  ⑨ [Cryptography9 : 2's complement](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptography9.md)
 
