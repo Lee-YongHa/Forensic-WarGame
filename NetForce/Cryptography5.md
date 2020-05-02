@@ -2,12 +2,11 @@
 
 
 
-1. 문제
-![1588347946787](./images/1588347946787.png)
+1. 문제![1588347946787](./images/1588347946787.png)
 
-   → 부분적으로 완성된 단어들이 보임
-
-   ⇒ transposition cipher(전치 암호) 추측
+→ 부분적으로 완성된 단어들이 보임
+   
+⇒ transposition cipher(전치 암호) 추측
 
 <br>
 
@@ -20,7 +19,7 @@
     - 완성된 단어 기준으로 문자열 자르기
       	- lengepag
          	- for
-      	- the
+         	- the
       	- chal
       	- this
       	- is
