@@ -2,12 +2,14 @@
 
 
 
-1. 문제![](./images/1588354269183.png)
+1. 문제
+
+   ![](./images/1588354269183.png)
 
    → France
 
    → key를 찾아야 함
-
+   
    ⇒ Vigenere Cipher 추측
 
 <br>
