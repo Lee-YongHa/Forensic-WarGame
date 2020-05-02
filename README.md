@@ -4,9 +4,7 @@
 
 <br>
 
-### [STUDY]
-
-#### 1. STARTUP 디스크 포렌식
+### 1. STARTUP 디스크 포렌식
 
 ​		  ① [FAT32 partition](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/STARTUP_DiskForensic/FAT32_Partition.md)
 
@@ -16,9 +14,7 @@
 
 <br>
 
-### [WarGame]
-
-#### 1. Suninatas
+### 2. Suninatas
 
 ​	  	① [Challenge14 : Password Cracking - John the Ripper](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/Suninatas/Challenge14.md)
 
@@ -44,7 +40,7 @@
 
 <br>
 
-#### 2. HackThisSite
+### 3. HackThisSite
 
 ​		  ① [Forensic1 : File Recovery](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/HTS/Forensic1.md)
 
@@ -54,7 +50,7 @@
 
 <br>
 
-#### 3. XCZ.KR
+### 4. XCZ.KR
 
 ​		  ① [PROB1 : File Carving - PNG, JPG signature](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/XCZ.KR/PROB1.md)
 
@@ -80,7 +76,7 @@
 
 <br>
 
-#### 4. NetForce
+### 5. NetForce
 
 ​	***Cryptography***
 
