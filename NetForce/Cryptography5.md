@@ -4,10 +4,10 @@
 
 1. 문제
 
-![1588347946787](./images/1588347946787.png)
+   ![1588347946787](./images/1588347946787.png)
 
 → 부분적으로 완성된 단어들이 보임
-   
+
 ⇒ transposition cipher(전치 암호) 추측
 
 <br>
@@ -22,7 +22,7 @@
       	- lengepag
          	- for
          	- the
-      	- chal
+            	- chal
       	- this
       	- is
       	- a
