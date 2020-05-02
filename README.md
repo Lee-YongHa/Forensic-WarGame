@@ -89,3 +89,12 @@
 ​		  ③ [Cryptography3 : Morse Code](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptography3.md)
 
 ​		  ④ [Cryptography4 : XOR Crypt](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptography4.md)
+
+​		  ⑤ [Cryptography5 : Transposition Cipher](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptography5.md)
+
+​		  ⑥ [Cryptography6 : Vigenere Cipher](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptography6.md)
+
+​		  ⑦ [Cryptography7 : Leetspeak](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptography7.md)
+
+​		  ⑧ [Cryptography8 : Decimal](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptography8.md)
+
