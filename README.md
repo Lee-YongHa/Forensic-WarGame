@@ -80,21 +80,21 @@
 
 ​	***[Cryptography]***
 
-​		  ① [Cryptography1 : Base64, Ceasar Cipher](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptgraphy1.md)
+​		  ① [Cryptography1 : Base64, Ceasar Cipher](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptography/Cryptgraphy1.md)
 
-​		  ② [Crytography2 : Substitution Cipher](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptgraphy2.md)
+​		  ② [Crytography2 : Substitution Cipher](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptography/Cryptgraphy2.md)
 
-​		  ③ [Cryptography3 : Morse Code](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptography3.md)
+​		  ③ [Cryptography3 : Morse Code](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptography/Cryptography3.md)
 
-​		  ④ [Cryptography4 : XOR Crypt](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptography4.md)
+​		  ④ [Cryptography4 : XOR Crypt](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptography/Cryptography4.md)
 
-​		  ⑤ [Cryptography5 : Transposition Cipher](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptography5.md)
+​		  ⑤ [Cryptography5 : Transposition Cipher](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptography/Cryptography5.md)
 
-​		  ⑥ [Cryptography6 : Vigenere Cipher](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptography6.md)
+​		  ⑥ [Cryptography6 : Vigenere Cipher](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptography/Cryptography6.md)
 
-​		  ⑦ [Cryptography7 : Leetspeak](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptography7.md)
+​		  ⑦ [Cryptography7 : Leetspeak](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptography/Cryptography7.md)
 
-​		  ⑧ [Cryptography8 : Decimal](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptography8.md)
+​		  ⑧ [Cryptography8 : Decimal](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptography/Cryptography8.md)
 
-​		  ⑨ [Cryptography9 : 2's complement](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptography9.md)
+​		  ⑨ [Cryptography9 : 2's complement](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Cryptography/Cryptography9.md)
 
