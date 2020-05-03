@@ -4,7 +4,7 @@
 
 1. 문제
 
-   ![](./images/1588354269183.png)
+   ![](.././images/1588354269183.png)
 
    → France
 
@@ -18,12 +18,12 @@
 
    - https://www.guballa.de/vigenere-solver 이용
 
-     ![](./images/1588354554696.png)
+     ![](.././images/1588354554696.png)
 
      → Input 값 설정
 
      <br>
 
-     ![](./images/1588354588633.png)
+     ![](.././images/1588354588633.png)
 
      ⇒ Password : `cryptoguy`
