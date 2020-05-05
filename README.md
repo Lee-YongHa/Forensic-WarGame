@@ -107,3 +107,9 @@
 ​		  ③ [Steganography3 : Hexadecimal, Binary](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Steganography/Steganography3.md)
 
 ​		  ④ [Steganography4 : Finding regularity](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/NetForce/Steganography/Steganography4.md)
+
+<br>
+
+### 6. Puzzle
+
+​		  ① [Puzzle 1 : Network Forensic - Wireshark](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/Puzzle/Puzzle1.md)
