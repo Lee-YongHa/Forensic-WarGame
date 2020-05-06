@@ -9,6 +9,8 @@ From : http://forensicscontest.com/2009/09/25/puzzle-1-anns-bad-aim
    ![1588692864851](./images/1588692864851.png)
    
    ​	→ IM : Instant Message
+   
+   ​	⇒ TCP 분석
 
 <br>
 
