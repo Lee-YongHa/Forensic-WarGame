@@ -112,4 +112,10 @@
 
 ### 6. Puzzle
 
-​		  ① [Puzzle 1 : Network Forensic - Wireshark](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/Puzzle/Puzzle1.md)
+​		  ① [Puzzle 1 : Network Forensic - TCP](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/Puzzle/Puzzle1.md)
+
+​		  ② [Puzzle 2 : Network Forensic - SMTP](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/Puzzle/Puzzle2.md)
+
+​		  ③ [Puzzle 3 : Network Forensic - HTTP](https://github.com/Lee-YongHa/Forensic-WarGame/blob/master/Puzzle/Puzzle3.md)
+
+​		
