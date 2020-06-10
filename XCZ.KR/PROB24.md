@@ -4,17 +4,19 @@
 
 1. 문제
 
-   ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587560338177.png)
+   ![1591803778958](./images/1591803778958.png)
 
 <br>
 
 2. 파일 다운로드
 
-   ![1587632354626](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587632354626.png)
+   ![1591803808674](./images/1591803808674.png)
    
    ​	<br>
    
-   1) xczprob2.7z.001 파일 압축 해제![1587632384504](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587632384504.png)
+   1) xczprob2.7z.001 파일 압축 해제
+   
+   ![1591803836101](./images/1591803836101.png)
    
    ​	⇒ 메모리 덤프 파일
 
@@ -26,7 +28,7 @@
 
    1) 이미지 시스템 분석
 
-   ![1587632675197](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587632675197.png)
+   ![](./images/1591803971149.png)
 
    → `vol.py -f "xczprob2" imageinfo`
 
@@ -45,7 +47,7 @@
    
    <br>
    
-   ![1587730880592](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587730880592.png)
+   ![](./images/1591804167210.png)
    
    → `vol.py -f "xczprob2" psxview`
    
@@ -57,7 +59,7 @@
    
    - 활성화 상태의 네트워크 연결 정보 나열
    
-   ![1587731614707](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587731614707.png)
+   ![](./images/1591804275363.png)
    
    → `vol.py -f "xczprob2" connections`
    
@@ -71,7 +73,7 @@
    
    - 실행 중인 프로세스의 상관 관계 정보 확인
    
-   ![](C:\Users\YONGHA.LEE\AppData\Roaming\Typora\typora-user-images\1587731284633.png)
+   ![1591804336198](./images/1591804336198.png)
    
    → `vol.py -f "xczprob2" pstree`
    
